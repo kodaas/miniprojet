@@ -1,22 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  padding: 20px;
+  background-color: #ffff; 
+  font-family: 'Source Sans Pro', sans-serif; 
 }
 
 header{
-
-}
-
-header > nav {
+    font-size: 20px;
     
 }
+.ad{
+    font-family: 'Source Code Pro', monospace;
+}
+#com{
+    color: blue;
+}
+#motto{
+    float: right;
+    font-style: italic;
+}
+ nav{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+}
+main{
+
+}
+.hero {
+    width: 90%;
+    height: 450px;
+    background-color: #e9e3e3;
+    margin: calc(2px + 65px) auto;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 30px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    font-family: monospace;
+    width: 400px;
+    margin: 0px 0px 0px 35px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+  .hero img {
+    width: 600px;
+    height: 400px
+  }
+section{
+
+}
+footer{
+
+}
 
 
-
-
-
-font-family: 'Source Sans Pro', sans-serif;
 
 
 
